@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>jQuery </title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+
+  
+  <section id="profile">
+    <h1 id="headline"> My Portfolio</h1>
+    <h2 class="subtitle">Saida Khairova</h2>
+    <p class="intro">Hi! I'm a student at Astana IT University learning front-end development.</p>
+    <button id="change-headline">Change Headline</button>
+    <button id="light-btn">Light Theme</button>
+    <button id="dark-btn">Dark Theme</button>
+  </section>
+
+  <!-- Task 2: Visibility -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I like to lean new things.</p>
+    <p id="status">Currently learning jQuery!</p>
+    <ul id="facts">
+      <li>I love baking.</li>
+      <li>I like watching series.</li>
+      <li>I have a cat named Tommy.</li>
+    </ul>
+    <button id="hide-btn">Hide</button>
+    <button id="show-btn">Show</button>
+    <button id="toggle-btn">Toggle</button>
+  </section>
+
+  <!-- Task 3: Fade -->
+  <section id="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <!-- Replace these src values with your own photos, e.g. images/me.jpg -->
+      <img id="img1" alt="Photo 1" src="9F6EF778-F23B-44E7-9B55-36981CAEB108_4_5005_c.jpeg>
+      <img id="img2" alt="Photo 2" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='140'><rect width='200' height='140' fill='%2310b981'/><text x='100' y='75' font-size='20' fill='white' text-anchor='middle'>Photo 2</text></svg>">
+    </div>
+    <button id="fade-in">Fade In</button>
+    <button id="fade-out">Fade Out</button>
+    <button id="fade-toggle">Fade Toggle</button>
+  </section>
+
+  <!-- Task 4: Slide -->
+  <section id="favorites">
+    <h2>My Favorites</h2>
+    <h3 class="panel-title">My Favorite Music</h3>
+    <div class="panel">Lana Del Rey and Weeknd</div>
+    <h3 class="panel-title">My Favorite Movie</h3>
+    <div class="panel">Harry Potter</div>
+    <h3 class="panel-title">My Favorite Subject</h3>
+    <div class="panel">Psychology</div>
+    <p>
+      <button id="slide-down">Slide Down All</button>
+      <button id="slide-up">Slide Up All</button>
+      <button id="slide-toggle">Slide Toggle All</button>
+    </p>
+  </section>
+
+  <!-- Task 5: Add & Remove -->
+  <section id="skills-section">
+    <h2>My Skills</h2>
+    <ul id="skill-list">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Git</li>
+    </ul>
+    <input type="text" id="skill-input" placeholder="New skill">
+    <button id="add-skill">Add Skill</button>
+    <button id="prepend-skill">Prepend Skill</button>
+    <button id="remove-skill">Remove Skill</button>
+    <p id="skill-msg" style="color:red;"></p>
+  </section>
+
+  <!-- Task 6: Attributes -->
+  <section id="links">
+    <h2>My Links</h2>
+    <a id="social-link" href="https://github.com" target="_blank">My GitHub</a><br>
+    <button id="change-link">Change Link to LinkedIn</button>
+  </section>
+
+  <!-- Task 7: Form -->
+  <section id="form-section">
+    <h2>Contact Form</h2>
+    <form onsubmit="return false;">
+      <input type="text" id="name-input" placeholder="Name">
+      <input type="email" id="email-input" placeholder="Email">
+    </form>
+    <p>Name: <span id="live-name"></span></p>
+    <p>Email: <span id="live-email"></span></p>
+  </section>
+
+  <!-- Task 8: Animation -->
+  <section id="skill-bars">
+    <h2>Skill Levels</h2>
+    <div class="skill">HTML
+      <div class="bar-bg"><div class="bar" data-level="90"></div></div>
+    </div>
+    <div class="skill">CSS
+      <div class="bar-bg"><div class="bar" data-level="75"></div></div>
+    </div>
+    <div class="skill">JavaScript
+      <div class="bar-bg"><div class="bar" data-level="60"></div></div>
+    </div>
+    <div class="skill">jQuery
+      <div class="bar-bg"><div class="bar" data-level="40"></div></div>
+    </div>
+    <button id="animate-skills">Animate My Skills</button>
+  </section>
+
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
