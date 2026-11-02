@@ -22,7 +22,7 @@
 
 - The three selector types are used: tag (h2), ID (#headline) and class (.intro).
 - .css() changes the style of the selected elements. Passing an object changes several properties at once.
-- .html() replaces content and understands HTML tags (the <em> makes the name italic). .text() replaces content as plain text.
+- .html() replaces content and understands HTML tags (the em tag makes the name italic). .text() replaces content as plain text.
 - The Light and Dark buttons run .css() on the body, sections and headings to switch the theme.
 
 
