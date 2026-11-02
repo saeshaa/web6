@@ -1,5 +1,6 @@
 # Assignment 6
 ## Saida Khairova IT 2502 
+## Link: https://saeshaa.github.io/web6/
 
 ### code structure 
 - `index.html` is the page structure (sections, buttons, inputs).
@@ -34,7 +35,7 @@
 
 ### Task 3
 <img width="691" height="98" alt="Screenshot 2026-11-03 at 00 37 17" src="https://github.com/user-attachments/assets/1f500722-85ee-40aa-919e-c5db5dadedb8" />
-- The same idea as Task 2, but the images change opacity gradually instead of disappearing instantly. `.fadeOut()` fades the images out, `.fadeIn()` brings them back, and `.fadeToggle()` switches between them. `.gallery img` selects every image inside the gallery.
+- The same idea as Task 2, but the images change opacity gradually instead of disappearing instantly. .fadeOut() fades the images out, .fadeIn() brings them back, and .fadeToggle() switches between them. .gallery img selects every image inside the gallery.
 
 ### Task 4
 <img width="691" height="98" alt="Screenshot 2026-11-03 at 00 38 30" src="https://github.com/user-attachments/assets/8b1e5bfd-cfeb-4dfa-bc96-ea4997fc655a" />
